@@ -1,0 +1,6 @@
+data/*
+!data/oslobysykkel-2025-cleaned-Top100.csv
+models/
+*.pkl
+venv/
+__pycache__/
