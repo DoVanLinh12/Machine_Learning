@@ -1,4 +1,8 @@
-﻿# Machine_Learning
+# 🚲 Oslo City Bike Trip Duration Prediction
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/Task-Regression-green)]()
+
 # Bài Toán
 Bài toán đặt ra là xây dựng một hệ thống Machine Learning có khả năng: Dự đoán thời gian di chuyển khi sử dụng xe đạp tại thành phố Oslo dựa vào lịch sử của các chuyến đi trước đó 
 Bài toán là dạng: Regression
@@ -7,19 +11,19 @@ Dự đoán thời gian (s) di chuyển bằng xe đạp khi biết trạm xuấ
 # Dataset
 https://drive.google.com/file/d/1R8dizIJnlQVqzmpihocGayC-zqjUJ8wk/view?usp=sharing
 # Thuộc tính dữ liệu
-started_at - Thời gian bắt đầu chuyến đi
-ended_at - Thời gian kết thúc chuyến đi
-duration - Thời gian di chuyển(s)
-start_station_id - mã trạm bắt đầu
-start_station_name - tên trạm bắt đầu
-start_station_description - mô tả trạm
-start_station_latitude - vĩ độ trạm đầu
-start_station_longitude	- kinh độ trạm đầu
-end_station_id - mã trạm kết thúc
-end_station_name - tên trạm bắt cuối
-end_station_description - mô tả trạm
-end_station_latitude - vĩ độ trạm cuối
-end_station_longitude	- kinh độ trạm cuối
+* **started_at**: Thời gian bắt đầu chuyến đi
+* **ended_at**: Thời gian kết thúc chuyến đi
+* **duration**: Thời gian di chuyển (s)
+* **start_station_id**: Mã trạm bắt đầu
+* **start_station_name**: Tên trạm bắt đầu
+* **start_station_description**: Mô tả trạm bắt đầu
+* **start_station_latitude**: Vĩ độ trạm đầu
+* **start_station_longitude**: Kinh độ trạm đầu
+* **end_station_id**: Mã trạm kết thúc
+* **end_station_name**: Tên trạm kết thúc
+* **end_station_description**: Mô tả trạm kết thúc
+* **end_station_latitude**: Vĩ độ trạm cuối
+* **end_station_longitude**: Kinh độ trạm cuối
 # Pipline
 Dataset → EDA → Clean → Encode → Train → Evaluate → Inference
 # Mô hình
@@ -29,7 +33,7 @@ Linear Regression, Decision Tree, Random Forest
 | :--- | :---: | :---: | :---: |
 | Linear Regression | 344.55 | 660.47 | 0.0620 |
 | Decision Tree | 282.66 | 607.29 | 0.2069 |
-| **Random Forest** | **239.74** | **573.21** | **0.2935** |
+| Random Forest | 239.74 | 573.21 | 0.2935 |
 # Cách chạy
 ```bash
 git clone https://github.com/DoVanLinh12/Machine_Learning.git
@@ -38,3 +42,4 @@ cd Machine_Learning
 ```
 # Tác giả
 **Tác giả:** Đỗ Văn Linh | **MSV:** 12423040 | **Lớp:** 12423TN
+
